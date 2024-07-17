@@ -1,7 +1,7 @@
 
-description: Bosch Gyro Accelerometer
+description: Bosch Barometer
 
-compatible: "bosch,bno055"
+compatible: "bosch,bmp180"
 
 include: i2c-device.yaml
 
@@ -12,4 +12,4 @@ properties:
     description: |
       The sensor model in use
     enum:
-        - "bno055"
+        - "bmp180"

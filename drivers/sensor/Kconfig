@@ -1,1 +1,1 @@
-rsource "bno055/Kconfig"
+rsource "bmp180/Kconfig"

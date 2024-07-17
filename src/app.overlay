@@ -1,12 +1,11 @@
 &i2c0 {
     status ="ok";
     clock-frequency = <I2C_BITRATE_FAST>;
-
-    bno055@28 {
+    bmp180@77 {
 		status = "okay";
-		compatible = "bosch,bno055";
-		reg = <0x28>;
-		model = "bno055";
+		compatible = "bosch,bmp180";
+		reg = <0x77>;
+		model = "bmp180";
 
 	};
 

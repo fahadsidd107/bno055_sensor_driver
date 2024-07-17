@@ -1,1 +1,1 @@
-add_subdirectory_ifdef(CONFIG_BNO055 bno055)
+add_subdirectory_ifdef(CONFIG_BMP180 bmp180)

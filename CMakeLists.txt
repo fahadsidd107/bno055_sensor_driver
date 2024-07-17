@@ -7,7 +7,7 @@ list(APPEND ZEPHYR_EXTRA_MODULES
 
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 
-project(gyro_sensor_driver)
+project(pressure_sensor_driver)
 
 target_sources(app PRIVATE src/main.c)
 zephyr_include_directories(drivers)

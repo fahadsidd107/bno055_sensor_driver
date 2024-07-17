@@ -1,5 +1,0 @@
-config BNO055
-	bool "Bosch Sensortec MEMS BNO055"
-	depends on I2C
-	help
-	  Enable driver for BNO055 sensor.
